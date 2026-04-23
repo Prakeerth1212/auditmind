@@ -1,0 +1,47 @@
+# environment
+.env
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# virtual env
+venv/
+.venv/
+env/
+
+# database
+*.db
+*.sqlite3
+
+# reports
+auditmind_reports/
+/tmp/
+
+# alembic
+alembic/versions/*.py
+
+# mlflow
+mlruns/
+mlflow.db
+
+# IDE
+.vscode/
+.idea/
+
+# egg
+*.egg-info/
+dist/
+build/
+
+# test cache
+.pytest_cache/
+.mypy_cache/
+
+# node
+node_modules/
+
+# OS
+.DS_Store
+Thumbs.db
