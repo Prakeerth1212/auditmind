@@ -1,6 +1,9 @@
 from pydantic_settings import BaseSettings
 
 class Settings(BaseSettings):
+    # App
+    app_version: str = "1.0.0"
+
     # LLM
     gemini_api_key: str
     llm_model: str = "gemini-1.5-flash"        # fast + cheap for agents
